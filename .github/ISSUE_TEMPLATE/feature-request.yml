@@ -1,0 +1,11 @@
+name: Feature request
+description: Describe a product need or compatibility gap.
+title: "Feature: "
+body:
+  - type: textarea
+    id: need
+    attributes:
+      label: Problem and desired outcome
+      description: Include a source feature ID if relevant. Do not include confidential information.
+    validations:
+      required: true

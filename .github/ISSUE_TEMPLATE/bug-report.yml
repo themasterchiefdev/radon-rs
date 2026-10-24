@@ -1,0 +1,27 @@
+name: Bug report
+description: Report unexpected product behavior.
+title: "Bug: "
+body:
+  - type: markdown
+    attributes:
+      value: "Issues are public. Remove secrets and proprietary source from examples."
+  - type: input
+    id: version
+    attributes:
+      label: Version and environment
+      description: Version or commit, operating system, and Python syntax version.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Steps and minimal input
+      description: Include the command and a small Python example.
+    validations:
+      required: true
+  - type: textarea
+    id: result
+    attributes:
+      label: Expected and actual behavior
+    validations:
+      required: true

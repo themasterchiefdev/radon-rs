@@ -1,0 +1,14 @@
+name: Harness enquiry
+description: Ask about using Harness for your product.
+title: "Harness enquiry: "
+body:
+  - type: markdown
+    attributes:
+      value: "This is public. Share only a non-confidential outline; do not post credentials, private code, customer information, or sensitive project details."
+  - type: textarea
+    id: enquiry
+    attributes:
+      label: What would you like to build or discuss?
+      description: Describe your product goals and what you would like to learn about Harness.
+    validations:
+      required: true
